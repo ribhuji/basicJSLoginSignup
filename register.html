@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css" />
+        <script defer src="register-page.js"></script>
+        <title>Simple App</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./aboutme.html"><span class="fa fa-info fa-lg"></span> About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./login.html"><span class="fa fa-sign-in fa-lg"></span> Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./logout.html"><span class="fa fa-sign-out fa-lg"></span> LogOut</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="login-form">
+            <div class="login-message"></div>
+            <h2>Signup</h2>
+            <form id="login-form">
+                <div class="form-row">
+                    <div class="form-group col-sm-4">
+                            <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                            <input type="email" class="form-control form-control-sm mr-1" id="Email" name="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group col-sm-4">
+                        <label class="sr-only" for="exampleInputPassword3">Password</label>
+                        <input type="password" class="form-control form-control-sm mr-1" id="Password" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group col-sm-4">
+                        <label class="sr-only" for="exampleInputPassword3">Password</label>
+                        <input type="password" class="form-control form-control-sm mr-1" id="ConfPassword" name="confpassword" placeholder="Confirm Password">
+                    </div>
+                    <div class="form-group col-sm-4">
+                        <label class="sr-only" for="exampleInputEmail3">Name</label>
+                        <input type="text" class="form-control form-control-sm mr-1" id="Name" name="name" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-sm-4">
+                        <label class="sr-only" for="exampleInputEmail3">Name</label>
+                        <input type="text" class="form-control form-control-sm mr-1" id="Last" name="lastname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group col-sm-4">
+                        <label class="sr-only" for="exampleInputEmail3">Name</label>
+                        <input type="text" class="form-control form-control-sm mr-1" id="Phone" name="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group col-sm-4">
+                        <label class="sr-only" for="exampleInputEmail3">Name</label>
+                        <input type="text" class="form-control form-control-sm mr-1" id="Address" name="address" placeholder="Address">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <button type="submit" class="btn btn-primary btn-sm ml-1" id="login-form-submit">sign in</button>        
+                </div>
+            </form>
+            <!--
+            <form>
+              <input type="text" title="username" placeholder="username" /><br>
+              <input type="password" title="username" placeholder="password" /><br>
+              <button type="submit" class="btn">Login</button>
+            </form>
+        -->
+        </div>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    
+</html>
